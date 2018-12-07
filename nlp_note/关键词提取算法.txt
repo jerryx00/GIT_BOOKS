@@ -1,0 +1,20 @@
+@startuml
+actor user #red
+
+participant 计算机 as ml
+participant 文档 as doc #99FF99
+autonumber "#."
+
+user->ml: 开始计算
+ml->doc: 加载文档
+ml->ml: 加载停用词表
+ml->ml: 对文档进行分词
+ml->ml: 根据停用词表，\n过滤干扰词
+ml->ml: 训练算法
+note right of ml #aqua
+	1) TF_IDF
+	2) LSI
+	3) LDA 
+end note
+
+@enduml
