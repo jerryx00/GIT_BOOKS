@@ -11,3 +11,6 @@
   - [02.01 **表设计**](02.Shiro/02.01.Desgin.md)
   - [02.02 **Shiro配置**](02.Shiro/02.02.Settings.md)
 - [03. **框架运行**](03.Run)
+  - [03.01 **菜单角标**](03.Shiro/02.01.Desgin.md)
+  - [02.02 **Shiro配置**](02.Shiro/02.02.Settings.md)
+
